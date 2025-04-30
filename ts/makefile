@@ -1,4 +1,4 @@
-TARGET=../bin/ts
+TARGET=ts
 CPPFLAGS+=-Wall -O2
 ifdef ANDROID_NDK_ROOT
 LDFLAGS+=-static-libstdc++
